@@ -38,6 +38,7 @@
             android:textAppearance="@style/TextAppearance.MaterialComponents.Headline2"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            app:text="@{viewModel.amphibian.component1()}"
             tools:text="Blue Jeans Frog"/>
 
         <View
@@ -58,6 +59,7 @@
             android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/name"
+            app:text="@{viewModel.amphibian.component3()}"
             tools:text="Bright red body, blue legs"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
